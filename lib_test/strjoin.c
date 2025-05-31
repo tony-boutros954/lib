@@ -39,7 +39,7 @@ char *ft_strjoin(char const *s1, char const *s2)
 
 int main(void)
 {
-    char *string1 = NULL;
+    char *string1 = "tony";
     char *string2 = "boutros";
     char *res = ft_strjoin(string1, string2);
 

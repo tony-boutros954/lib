@@ -10,7 +10,6 @@ char *ft_substr(char const *s, unsigned int start, size_t len)
 
     if (s == NULL)
         return NULL;
-
     while (s[i] != '\0')
     {
         if (i >= start && length < len)

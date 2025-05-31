@@ -35,5 +35,6 @@ int main(void)
         printf("%s\n", "null");
 
     printf("%s\n", test);
+    free(test);
     return (0);
 }
